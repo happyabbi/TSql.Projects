@@ -1,0 +1,6 @@
+D:\SQLServer2019\Ch18\Ch18_6_3\Ch18_6_3\Ch18_6_3\bin\Debug\Ch18_6_3.exe.config
+D:\SQLServer2019\Ch18\Ch18_6_3\Ch18_6_3\Ch18_6_3\bin\Debug\Ch18_6_3.exe
+D:\SQLServer2019\Ch18\Ch18_6_3\Ch18_6_3\Ch18_6_3\bin\Debug\Ch18_6_3.pdb
+D:\SQLServer2019\Ch18\Ch18_6_3\Ch18_6_3\Ch18_6_3\obj\Debug\Ch18_6_3.csprojAssemblyReference.cache
+D:\SQLServer2019\Ch18\Ch18_6_3\Ch18_6_3\Ch18_6_3\obj\Debug\Ch18_6_3.exe
+D:\SQLServer2019\Ch18\Ch18_6_3\Ch18_6_3\Ch18_6_3\obj\Debug\Ch18_6_3.pdb

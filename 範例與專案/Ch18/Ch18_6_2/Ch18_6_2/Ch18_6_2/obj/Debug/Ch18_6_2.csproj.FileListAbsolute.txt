@@ -1,0 +1,5 @@
+D:\SQLServer2019\Ch18\Ch18_6_2\Ch18_6_2\Ch18_6_2\bin\Debug\Ch18_6_2.exe.config
+D:\SQLServer2019\Ch18\Ch18_6_2\Ch18_6_2\Ch18_6_2\bin\Debug\Ch18_6_2.exe
+D:\SQLServer2019\Ch18\Ch18_6_2\Ch18_6_2\Ch18_6_2\bin\Debug\Ch18_6_2.pdb
+D:\SQLServer2019\Ch18\Ch18_6_2\Ch18_6_2\Ch18_6_2\obj\Debug\Ch18_6_2.exe
+D:\SQLServer2019\Ch18\Ch18_6_2\Ch18_6_2\Ch18_6_2\obj\Debug\Ch18_6_2.pdb

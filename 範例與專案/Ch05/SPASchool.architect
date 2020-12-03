@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architect-project version="1.0" appversion="1.0.8">
+ <project-name>SPASchool</project-name>
+ <print-settings numCopies="1" zoom="1.0" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
+ <project-data-sources>
+  <data-source id="DS0">
+   <property key="Logical" value="SPASchool" />
+   <property key="Connection Type" value="SQL Server 2008" />
+   <property key="JDBC URL" value="jdbc:sqlserver://localhost:1433;DatabaseName=SPASchool" />
+   <property key="UID" value="MyDB" />
+   <property key="PWD" value="A12345678" />
+   <property key="ca.sqlpower.architect.etl.kettle.database" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.port" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.hostname" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.repos.login" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.repos.password" value="" />
+  </data-source>
+  <data-source id="DS2">
+   <property key="Connection Type" value="SQL Server 2008" />
+   <property key="Logical" value="PlayPen Database" />
+   <property key="JDBC URL" value="jdbc:sqlserver://localhost:1433;DatabaseName=SPASchool" />
+   <property key="UID" value="MyDB" />
+   <property key="PWD" value="A12345678" />
+   <property key="ca.sqlpower.architect.etl.kettle.database" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.port" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.hostname" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.repos.login" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.repos.password" value="" />
+  </data-source>
+  <data-source id="DS2">
+   <property key="Connection Type" value="SQL Server 2008" />
+   <property key="Logical" value="PlayPen Database" />
+   <property key="JDBC URL" value="jdbc:sqlserver://localhost:1433;DatabaseName=SPASchool" />
+   <property key="UID" value="MyDB" />
+   <property key="PWD" value="A12345678" />
+   <property key="ca.sqlpower.architect.etl.kettle.database" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.port" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.hostname" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.repos.login" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.repos.password" value="" />
+  </data-source>
+  <data-source id="DS0">
+   <property key="Connection Type" value="SQL Server 2008" />
+   <property key="Logical" value="SPASchool" />
+   <property key="JDBC URL" value="jdbc:sqlserver://localhost:1433;DatabaseName=SPASchool" />
+   <property key="UID" value="MyDB" />
+   <property key="PWD" value="A12345678" />
+   <property key="ca.sqlpower.architect.etl.kettle.database" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.port" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.hostname" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.repos.login" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.repos.password" value="" />
+  </data-source>
+ </project-data-sources>
+ <source-databases>
+  <database id="DB0" populated="true" UUID="7b16b65c-bddb-4e6c-8aac-d726602ca1bb" dbcs-ref="DS2" name="PlayPen Database" physicalName="SPASchool" >
+   <catalog id="CAT1" populated="false" UUID="155b64d7-1e26-4692-9936-e62b1ea6b702" name="DWConfiguration" nativeTerm="database" physicalName="DWConfiguration" >
+   </catalog>
+   <catalog id="CAT2" populated="false" UUID="ff81ebb1-4720-4615-8d86-dbef826b7eae" name="DWDiagnostics" nativeTerm="database" physicalName="DWDiagnostics" >
+   </catalog>
+   <catalog id="CAT3" populated="false" UUID="4e0b3d31-c63d-4242-bda7-4e48d62361dc" name="DWQueue" nativeTerm="database" physicalName="DWQueue" >
+   </catalog>
+   <catalog id="CAT4" populated="false" UUID="341e8d0b-26ab-4e87-b7f2-065002b96118" name="master" nativeTerm="database" physicalName="master" >
+   </catalog>
+   <catalog id="CAT5" populated="false" UUID="06b32f01-e99d-420b-8492-e3591889356b" name="model" nativeTerm="database" physicalName="model" >
+   </catalog>
+   <catalog id="CAT6" populated="false" UUID="4ed83e36-8c33-4640-b89e-93d71b497bc5" name="msdb" nativeTerm="database" physicalName="msdb" >
+   </catalog>
+   <catalog id="CAT7" populated="false" UUID="46b0404c-f37c-431a-a7ec-ac0c10e1ed9d" name="ReportServer" nativeTerm="database" physicalName="ReportServer" >
+   </catalog>
+   <catalog id="CAT8" populated="false" UUID="d4758709-38af-4586-af86-e146c8336848" name="ReportServerTempDB" nativeTerm="database" physicalName="ReportServerTempDB" >
+   </catalog>
+   <catalog id="CAT9" populated="true" UUID="e6645675-c5dc-4375-b852-8927dfc66d69" name="SPASchool" nativeTerm="database" physicalName="SPASchool" >
+    <schema id="SCH10" populated="false" UUID="2a493c92-02a4-40da-888b-eabb793b8c48" name="db_accessadmin" nativeTerm="schema" physicalName="db_accessadmin" >
+    </schema>
+    <schema id="SCH11" populated="false" UUID="6ac4b194-100c-4a61-80dc-4667bb75b456" name="db_backupoperator" nativeTerm="schema" physicalName="db_backupoperator" >
+    </schema>
+    <schema id="SCH12" populated="false" UUID="9bcdc2d6-b4b2-4dac-bd87-daad5ff86665" name="db_datareader" nativeTerm="schema" physicalName="db_datareader" >
+    </schema>
+    <schema id="SCH13" populated="false" UUID="29e524f1-99fe-4718-917b-1dcc0dbbaa5b" name="db_datawriter" nativeTerm="schema" physicalName="db_datawriter" >
+    </schema>
+    <schema id="SCH14" populated="false" UUID="995c35a4-955b-4940-92fa-adcdb5684de5" name="db_ddladmin" nativeTerm="schema" physicalName="db_ddladmin" >
+    </schema>
+    <schema id="SCH15" populated="false" UUID="70fec31d-8893-46a8-822a-4894fcebacc3" name="db_denydatareader" nativeTerm="schema" physicalName="db_denydatareader" >
+    </schema>
+    <schema id="SCH16" populated="false" UUID="72c2a22b-ba94-4ff2-b309-c642d6e395cb" name="db_denydatawriter" nativeTerm="schema" physicalName="db_denydatawriter" >
+    </schema>
+    <schema id="SCH17" populated="false" UUID="048beab2-ad3f-4a98-8643-abd953489c8e" name="db_owner" nativeTerm="schema" physicalName="db_owner" >
+    </schema>
+    <schema id="SCH18" populated="false" UUID="31e77057-9221-4236-a7f5-63c18bd1c4af" name="db_securityadmin" nativeTerm="schema" physicalName="db_securityadmin" >
+    </schema>
+    <schema id="SCH19" populated="false" UUID="ee5fb766-59d2-4eb7-8b12-6fc0a7b99206" name="public" nativeTerm="schema" physicalName="public" >
+    </schema>
+    <schema id="SCH20" populated="false" UUID="2536f1b1-d201-4199-b1ce-34593ff22a4f" name="dbo" nativeTerm="schema" physicalName="dbo" >
+    </schema>
+    <schema id="SCH21" populated="false" UUID="1783b229-3715-461c-ab7e-c7fc66849949" name="MyDB" nativeTerm="schema" physicalName="MyDB" >
+    </schema>
+    <schema id="SCH22" populated="false" UUID="65d0c843-fe33-48c8-bb32-56b3f00e6b21" name="guest" nativeTerm="schema" physicalName="guest" >
+    </schema>
+   </catalog>
+   <catalog id="CAT23" populated="false" UUID="f3378523-73a6-4e13-a956-eaca5afac3af" name="tempdb" nativeTerm="database" physicalName="tempdb" >
+   </catalog>
+   <catalog id="CAT24" populated="false" UUID="ea12e0c3-c777-4a42-b3d8-abcfa47e29b5" name="聯絡人" nativeTerm="database" physicalName="聯絡人" >
+   </catalog>
+   <relationships>
+   </relationships>
+  </database>
+  <database id="DB25" populated="true" UUID="386f756c-ff36-4370-b577-2da493a1b00d" dbcs-ref="DS2" name="PlayPen Database" physicalName="SPASchool" >
+   <catalog id="CAT26" populated="false" UUID="c20b1faa-f13b-4620-aac1-5418c7eb52f9" name="DWConfiguration" nativeTerm="database" physicalName="DWConfiguration" >
+   </catalog>
+   <catalog id="CAT27" populated="false" UUID="0162cfc8-3800-4832-94a7-126372f7e8cd" name="DWDiagnostics" nativeTerm="database" physicalName="DWDiagnostics" >
+   </catalog>
+   <catalog id="CAT28" populated="false" UUID="27b04ce3-5bd6-4c49-95fd-ccc4feb0bd32" name="DWQueue" nativeTerm="database" physicalName="DWQueue" >
+   </catalog>
+   <catalog id="CAT29" populated="false" UUID="0cdfd692-f469-4ed6-a7bc-74cd1f635cdb" name="master" nativeTerm="database" physicalName="master" >
+   </catalog>
+   <catalog id="CAT30" populated="false" UUID="4b278b2b-1412-44e2-b508-7fdfa39a05f7" name="model" nativeTerm="database" physicalName="model" >
+   </catalog>
+   <catalog id="CAT31" populated="false" UUID="8a63b279-1db3-4a43-b10e-a33b825062b2" name="msdb" nativeTerm="database" physicalName="msdb" >
+   </catalog>
+   <catalog id="CAT32" populated="false" UUID="f771e1c5-5d38-4cf0-b90a-23d936461fef" name="SPASchool" nativeTerm="database" physicalName="SPASchool" >
+   </catalog>
+   <catalog id="CAT33" populated="false" UUID="afb459ed-6025-4389-861b-635caeb16a02" name="tempdb" nativeTerm="database" physicalName="tempdb" >
+   </catalog>
+   <catalog id="CAT34" populated="false" UUID="2b17c5ea-5a4c-4efb-a7a6-3ab5eb8e76e4" name="聯絡人" nativeTerm="database" physicalName="聯絡人" >
+   </catalog>
+   <relationships>
+   </relationships>
+  </database>
+  <database id="DB35" populated="true" UUID="35bc30fd-c1d2-4802-9c61-b68a1f6760dd" dbcs-ref="DS0" name="SPASchool" physicalName="SPASchool" >
+   <catalog id="CAT36" populated="false" UUID="7b12c27a-51ac-41ce-93f6-d1f475e44596" name="AdventureWorks" nativeTerm="database" physicalName="AdventureWorks" >
+   </catalog>
+   <catalog id="CAT37" populated="false" UUID="7fad7437-f8f6-4d35-9d3d-ebcf7e6ce07c" name="DWConfiguration" nativeTerm="database" physicalName="DWConfiguration" >
+   </catalog>
+   <catalog id="CAT38" populated="false" UUID="87f5450b-cec1-4a22-9551-eb5645c8bb3a" name="DWDiagnostics" nativeTerm="database" physicalName="DWDiagnostics" >
+   </catalog>
+   <catalog id="CAT39" populated="false" UUID="692550bc-796d-4a90-bbde-a285ae08a979" name="DWQueue" nativeTerm="database" physicalName="DWQueue" >
+   </catalog>
+   <catalog id="CAT40" populated="false" UUID="2f4f6007-8936-4956-9861-0ccbe02e6df4" name="master" nativeTerm="database" physicalName="master" >
+   </catalog>
+   <catalog id="CAT41" populated="false" UUID="72ed2a61-b69f-48b0-bdeb-e66357d7a290" name="model" nativeTerm="database" physicalName="model" >
+   </catalog>
+   <catalog id="CAT42" populated="false" UUID="ea88d45b-76c0-4ed2-9cc9-595381b65518" name="msdb" nativeTerm="database" physicalName="msdb" >
+   </catalog>
+   <catalog id="CAT43" populated="false" UUID="bda45731-b27f-49fe-8550-6d07313738f0" name="SPASchool" nativeTerm="database" physicalName="SPASchool" >
+   </catalog>
+   <catalog id="CAT44" populated="false" UUID="14d20c58-f3ba-4ba4-960f-0b967a8d9735" name="tempdb" nativeTerm="database" physicalName="tempdb" >
+   </catalog>
+   <catalog id="CAT45" populated="false" UUID="4bdf477e-efc7-494e-aa2a-90670313e198" name="代理產品" nativeTerm="database" physicalName="代理產品" >
+   </catalog>
+   <catalog id="CAT46" populated="false" UUID="d8119be1-998b-4c60-b565-f96cb1f639ab" name="教務系統" nativeTerm="database" physicalName="教務系統" >
+   </catalog>
+   <catalog id="CAT47" populated="false" UUID="baa72cf4-4e4c-4d79-b218-b9953eab5ebf" name="產品" nativeTerm="database" physicalName="產品" >
+   </catalog>
+   <catalog id="CAT48" populated="false" UUID="638b9492-4d2e-4ae8-b46e-27e7e137b92d" name="圖書" nativeTerm="database" physicalName="圖書" >
+   </catalog>
+   <relationships>
+   </relationships>
+  </database>
+ </source-databases>
+ <target-database id="ppdb" dbcs-ref="DS0">
+  <table id="TAB50" populated="true" UUID="dd5b73b8-b2e5-49db-a77b-b5e1c95af027" name="班級" objectType="TABLE" physicalName="Classes" >
+   <remarks></remarks>
+   <folder id="FOLTAB501" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL51" populated="true" UUID="89936117-f173-43dc-bed0-ba2b1b83b177" autoIncrement="false" defaultValue="" name="教授編號" nullable="0" physicalName="eid" precision="4" primaryKeySeq="0" referenceCount="2" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL52" populated="true" UUID="19f49913-984f-414c-95de-e657ced49d0b" autoIncrement="false" defaultValue="" name="課程編號" nullable="0" physicalName="c_no" precision="5" primaryKeySeq="1" referenceCount="2" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL53" populated="true" UUID="ef9e4033-f1f7-4dee-85f6-6d33f1476240" autoIncrement="false" defaultValue="" name="學號" nullable="0" physicalName="sid" precision="4" primaryKeySeq="2" referenceCount="2" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL54" populated="true" UUID="d92ac6c6-cc5b-42c2-92d6-781b671106f8" autoIncrement="false" defaultValue="" name="上課時間" nullable="1" physicalName="time" precision="0" referenceCount="1" scale="0" sourceDataTypeName="datetime" type="92" userDefinedTypeUUID="10d6960f-169d-47c2-860a-37341342b1d5" >
+     <remarks></remarks>
+    </column>
+    <column id="COL55" populated="true" UUID="2281e2b2-22f2-48e6-bdfc-bd56130fa766" autoIncrement="false" defaultValue="" name="教室" nullable="1" physicalName="room" precision="8" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB503" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB502" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB504" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX56" populated="true" UUID="05ed245f-564b-4905-9132-d32f693e83d6" clustered="true" name="Classes_pk" physicalName="Classes_pk" primaryKeyIndex="true" qualifier="Classes" unique="true" >
+     <index-column id="IDC57" populated="true" UUID="40cc7b52-57f7-4393-8242-0b82183e2f92" ascendingOrDescending="UNSPECIFIED" column-ref="COL51" name="教授編號" physicalName="eid" />
+     <index-column id="IDC58" populated="true" UUID="64f0c45a-c573-493f-b4e4-0ed98ee384e6" ascendingOrDescending="UNSPECIFIED" column-ref="COL52" name="課程編號" physicalName="c_no" />
+     <index-column id="IDC59" populated="true" UUID="2a7bc421-3019-4396-82d3-9f610860f0f7" ascendingOrDescending="UNSPECIFIED" column-ref="COL53" name="學號" physicalName="sid" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB60" populated="true" UUID="a42c5ef4-2d51-4d3f-9dd0-eb9996a55102" name="課程" objectType="TABLE" physicalName="Courses" >
+   <remarks></remarks>
+   <folder id="FOLTAB601" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL61" populated="true" UUID="92c3fc0e-4322-4c11-9dcd-bea006200921" autoIncrement="false" defaultValue="" name="課程編號" nullable="0" physicalName="c_no" precision="5" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL62" populated="true" UUID="fcec1f12-e4a1-4952-a063-72311ac75ca0" autoIncrement="false" defaultValue="" name="名稱" nullable="1" physicalName="title" precision="30" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL63" populated="true" UUID="bfce953f-9d2d-44e3-b4f1-4cb115a314e1" autoIncrement="false" defaultValue="" name="學分" nullable="1" physicalName="credits" precision="0" referenceCount="1" scale="0" sourceDataTypeName="int" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB603" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB602" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB604" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX64" populated="true" UUID="8f65528a-be3a-44ad-918a-9298be8fb247" clustered="true" name="Courses_pk" physicalName="Courses_pk" primaryKeyIndex="true" qualifier="Courses" unique="true" >
+     <index-column id="IDC65" populated="true" UUID="5de683be-62db-4ecf-a4a8-b3318054bb65" ascendingOrDescending="UNSPECIFIED" column-ref="COL61" name="課程編號" physicalName="c_no" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB66" populated="true" UUID="cbb936f9-51b6-48e2-a390-fa63b7396e07" name="員工" objectType="TABLE" physicalName="Employees" >
+   <remarks></remarks>
+   <folder id="FOLTAB661" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL67" populated="true" UUID="aacb5d77-2b48-440e-baae-67cd5469d592" autoIncrement="false" defaultValue="" name="身份證字號" nullable="0" physicalName="SSN" precision="10" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL68" populated="true" UUID="ea347a48-fd1e-4617-99eb-2149c2553773" autoIncrement="false" defaultValue="" name="姓名" nullable="1" physicalName="name" precision="12" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL69" populated="true" UUID="066c75b5-c936-4a87-97ae-c5ca178406a4" autoIncrement="false" defaultValue="" name="城市" nullable="1" physicalName="city" precision="5" referenceCount="1" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL70" populated="true" UUID="e2e66ced-90ee-4be8-98d7-706e22ab3a1f" autoIncrement="false" defaultValue="" name="街道" nullable="1" physicalName="street" precision="30" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL71" populated="true" UUID="a9d51857-4630-41d4-a56b-a4a5e888ac77" autoIncrement="false" defaultValue="" name="電話" nullable="1" physicalName="tel" precision="12" referenceCount="1" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL72" populated="true" UUID="d1a95f92-8322-4c1a-a828-708b446801d9" autoIncrement="false" autoIncrementSequenceName="Employees_salary_seq" defaultValue="" name="薪水" nullable="1" physicalName="salary" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="7" userDefinedTypeUUID="8fe516a5-9833-4170-9572-50e78bbf221f" >
+     <remarks></remarks>
+    </column>
+    <column id="COL73" populated="true" UUID="f4cbeb5f-a2fc-4c68-8ecd-9940f60ad145" autoIncrement="false" autoIncrementSequenceName="Employees_insurance_seq" defaultValue="" name="保險" nullable="1" physicalName="insurance" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="7" userDefinedTypeUUID="8fe516a5-9833-4170-9572-50e78bbf221f" >
+     <remarks></remarks>
+    </column>
+    <column id="COL74" populated="true" UUID="9615e1ec-8ca9-4bab-9973-83322b7ec545" autoIncrement="false" autoIncrementSequenceName="Employees_tax_seq" defaultValue="" name="扣稅" nullable="1" physicalName="tax" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB663" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB662" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB664" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX75" populated="true" UUID="8fb340bf-65d3-4267-a970-aed478329260" clustered="true" name="Employees_pk" physicalName="Employees_pk" primaryKeyIndex="true" qualifier="Employees" unique="true" >
+     <index-column id="IDC76" populated="true" UUID="c42d6ec9-517e-48eb-b208-606a77a02ba4" ascendingOrDescending="UNSPECIFIED" column-ref="COL67" name="身份證字號" physicalName="SSN" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB77" populated="true" UUID="fb2fb2de-6377-4785-83f0-805f99527821" name="測驗" objectType="TABLE" physicalName="Exams" >
+   <remarks></remarks>
+   <folder id="FOLTAB771" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL78" populated="true" UUID="de7b5c97-816e-4afa-a118-462b34e46cfd" autoIncrement="false" defaultValue="" name="測驗編號" nullable="0" physicalName="e_no" precision="4" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL79" populated="true" UUID="fb123229-e8d5-4664-848e-f40fdfbaef96" autoIncrement="false" defaultValue="" name="名稱" nullable="1" physicalName="title" precision="20" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL80" populated="true" UUID="0c500e77-c380-4be1-8bc3-5c8b1597b4b9" autoIncrement="false" defaultValue="" name="種類" nullable="1" physicalName="type" precision="10" referenceCount="1" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL81" populated="true" UUID="bb99d945-dfeb-4e71-9df0-f9ddcec5c2ea" autoIncrement="false" defaultValue="" name="課程編號" nullable="0" physicalName="c_no" precision="5" referenceCount="2" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB773" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB772" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB774" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX82" populated="true" UUID="3575ebfe-59d7-4b46-b571-1b5e4a8e45e0" clustered="true" name="Exams_pk" physicalName="Exams_pk" primaryKeyIndex="true" qualifier="Exams" unique="true" >
+     <index-column id="IDC83" populated="true" UUID="7bad3925-af53-4dcf-8b98-428578dcf2f3" ascendingOrDescending="UNSPECIFIED" column-ref="COL78" name="測驗編號" physicalName="e_no" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB84" populated="true" UUID="dfff2d3d-d259-431b-a753-e4552c0715ec" name="教授" objectType="TABLE" physicalName="Instructors" >
+   <remarks></remarks>
+   <folder id="FOLTAB841" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL85" populated="true" UUID="ac187187-24c0-41ff-94b5-6efaa7862b7d" autoIncrement="false" defaultValue="" name="教授編號" nullable="0" physicalName="eid" precision="4" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL86" populated="true" UUID="596dbfc1-9e4f-42b5-a9fe-d58c578af9fc" autoIncrement="false" defaultValue="" name="職稱" nullable="1" physicalName="rank" precision="10" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL87" populated="true" UUID="99768003-ff80-452b-b864-4385408db388" autoIncrement="false" defaultValue="" name="科系" nullable="1" physicalName="department" precision="5" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL88" populated="true" UUID="01e91b8a-619b-45c7-b7c9-ef1e7ece1050" autoIncrement="false" defaultValue="" name="身份證字號" nullable="0" physicalName="SSN" precision="10" referenceCount="2" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB843" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB842" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB844" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX89" populated="true" UUID="f8701715-b1d1-4559-8954-3960fd169d77" clustered="true" name="Instructors_pk" physicalName="Instructors_pk" primaryKeyIndex="true" qualifier="Instructors" unique="true" >
+     <index-column id="IDC90" populated="true" UUID="3f24b841-e75d-4b77-98fc-5205995a1bca" ascendingOrDescending="UNSPECIFIED" column-ref="COL85" name="教授編號" physicalName="eid" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB91" populated="true" UUID="6362eeff-feb6-4b5e-a769-16fbd394c2bf" name="家長" objectType="TABLE" physicalName="Parents" >
+   <remarks></remarks>
+   <folder id="FOLTAB911" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL92" populated="true" UUID="367b12cf-b347-43e5-b828-fd66ff7429ca" autoIncrement="false" defaultValue="" name="學號" nullable="0" physicalName="sid" precision="4" primaryKeySeq="0" referenceCount="2" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL93" populated="true" UUID="9137c2d5-a1aa-437b-8bf7-1437e7ad179f" autoIncrement="false" defaultValue="" name="姓名" nullable="0" physicalName="name" precision="12" primaryKeySeq="1" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL94" populated="true" UUID="df8cb841-a482-412b-a301-d4471ecc531c" autoIncrement="false" defaultValue="" name="關係" nullable="1" physicalName="relationship" precision="20" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB913" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB912" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB914" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX95" populated="true" UUID="8b29ad40-f01e-4b13-8fff-b65156caf5c9" clustered="true" name="Parents_pk" physicalName="Parents_pk" primaryKeyIndex="true" qualifier="Parents" unique="true" >
+     <index-column id="IDC96" populated="true" UUID="00f42c72-8ec2-4b8c-bd9b-169bfb4b7955" ascendingOrDescending="UNSPECIFIED" column-ref="COL92" name="學號" physicalName="sid" />
+     <index-column id="IDC97" populated="true" UUID="6de04d49-bc3c-49a6-9076-9fbc4dcbadfc" ascendingOrDescending="UNSPECIFIED" column-ref="COL93" name="姓名" physicalName="name" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB98" populated="true" UUID="9787badd-93e8-497f-8215-849b2f618d3d" name="結果" objectType="TABLE" physicalName="Results" >
+   <remarks></remarks>
+   <folder id="FOLTAB981" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL99" populated="true" UUID="1d1aadd7-7c48-4224-8da1-f1c530c7f188" autoIncrement="false" defaultValue="" name="學號" nullable="0" physicalName="sid" precision="4" primaryKeySeq="0" referenceCount="2" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL100" populated="true" UUID="0d48c450-c812-49ef-ad56-352e0aa371a7" autoIncrement="false" defaultValue="" name="測驗編號" nullable="0" physicalName="e_no" precision="4" primaryKeySeq="1" referenceCount="2" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL101" populated="true" UUID="b88db370-8d68-4e06-8c39-733f57a3334d" autoIncrement="false" defaultValue="" name="成績" nullable="1" physicalName="grade" precision="0" referenceCount="1" scale="0" sourceDataTypeName="int" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL102" populated="true" UUID="7eabb936-ddb9-4dff-b705-3c9e02e3aec4" autoIncrement="false" defaultValue="" name="日期" nullable="1" physicalName="date" precision="0" referenceCount="1" scale="0" sourceDataTypeName="datetime" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB983" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB982" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB984" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX103" populated="true" UUID="d7daaca2-2e03-41b4-8fef-5a157cd32ab6" clustered="true" name="Results_pk" physicalName="Results_pk" primaryKeyIndex="true" qualifier="Results" unique="true" >
+     <index-column id="IDC104" populated="true" UUID="b27fe61b-6ecc-4ac3-ab8f-f016631900b4" ascendingOrDescending="UNSPECIFIED" column-ref="COL99" name="學號" physicalName="sid" />
+     <index-column id="IDC105" populated="true" UUID="3e6795b1-39c1-4726-b9c9-9afd653a6ec5" ascendingOrDescending="UNSPECIFIED" column-ref="COL100" name="測驗編號" physicalName="e_no" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB106" populated="true" UUID="a1642332-29a8-4310-9560-6f670c530f72" name="學生聯絡地址" objectType="TABLE" physicalName="Std_Address" >
+   <remarks></remarks>
+   <folder id="FOLTAB1061" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL107" populated="true" UUID="90b36b8d-a626-41a5-b26b-a0e376015778" autoIncrement="false" defaultValue="" name="地址" nullable="0" physicalName="address" precision="1" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL108" populated="true" UUID="261e2296-4afe-476f-945f-4fe593c3d952" autoIncrement="false" defaultValue="" name="學號" nullable="0" physicalName="sid" precision="4" primaryKeySeq="1" referenceCount="2" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB1063" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB1062" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB1064" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX109" populated="true" UUID="74505a11-78be-4937-af0f-d1ec858272fd" clustered="true" name="Std_Address_pk" physicalName="Std_Address_pk" primaryKeyIndex="true" qualifier="Std_Address" unique="true" >
+     <index-column id="IDC110" populated="true" UUID="c8411e06-4954-42b2-a6de-412f5b883c0f" ascendingOrDescending="UNSPECIFIED" column-ref="COL107" name="地址" physicalName="address" />
+     <index-column id="IDC111" populated="true" UUID="66addfa2-8b8d-4c9c-9b08-ec3b3f5be17e" ascendingOrDescending="UNSPECIFIED" column-ref="COL108" name="學號" physicalName="sid" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB112" populated="true" UUID="39b36cc1-bc14-4532-b6a8-3a40bf151bb0" name="學生" objectType="TABLE" physicalName="Students" >
+   <remarks></remarks>
+   <folder id="FOLTAB1121" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL113" populated="true" UUID="9277a706-d035-49f0-942f-b44eb12d7c1a" autoIncrement="false" defaultValue="" name="學號" nullable="0" physicalName="sid" precision="4" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="char" type="1" userDefinedTypeUUID="67ddc63f-5541-4dd1-9236-632d9d155e80" >
+     <remarks></remarks>
+    </column>
+    <column id="COL114" populated="true" UUID="eb5300ce-5f5e-4070-9bc1-d7ddb643a53b" autoIncrement="false" defaultValue="" name="姓名" nullable="0" physicalName="name" precision="12" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL115" populated="true" UUID="06489feb-cdd9-4d35-8d8b-3ae0a6321deb" autoIncrement="false" defaultValue="" name="電話" nullable="1" physicalName="tel" precision="15" referenceCount="1" scale="0" sourceDataTypeName="varchar" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL116" populated="true" UUID="05f93efa-b583-406d-bda3-4f5451c2515b" autoIncrement="false" defaultValue="" name="生日" nullable="1" physicalName="birthday" precision="0" referenceCount="1" scale="0" sourceDataTypeName="datetime" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB1123" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB1122" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB1124" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX117" populated="true" UUID="5c542db8-35c2-4af0-a78e-5520cc6bf11e" clustered="true" name="Students_pk" physicalName="Students_pk" primaryKeyIndex="true" qualifier="Students" unique="true" >
+     <index-column id="IDC118" populated="true" UUID="d06fcd9b-bcd1-4dcf-bd57-856b88b5b647" ascendingOrDescending="UNSPECIFIED" column-ref="COL113" name="學號" physicalName="sid" />
+    </index>
+    <index id="IDX119" populated="true" UUID="8f82a1e2-1eea-472d-97fa-9f7cc8634959" clustered="false" name="Students_idx" physicalName="Students_idx" primaryKeyIndex="false" qualifier="Students" unique="false" >
+     <index-column id="IDC120" populated="true" UUID="d0aa8877-44c8-4059-a32a-e468e8a91b92" ascendingOrDescending="ASCENDING" column-ref="COL114" name="姓名" physicalName="name" />
+    </index>
+   </folder>
+  </table>
+  <relationships>
+   <relationship id="REL121" populated="true" UUID="60e51d36-2621-448b-ab77-db8fc5b62a25" deferrability="7" deleteRule="3" fk-table-ref="TAB50" fkCardinality="7" identifying="true" name="Assign" physicalName="Assign" pk-table-ref="TAB60" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP122" populated="true" UUID="ff01944b-14eb-4e26-8a9e-2117b4b389b4" fk-column-ref="COL52" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL61" />
+   </relationship>
+   <relationship id="REL123" populated="true" UUID="6cd951e1-fcdb-4e31-9a89-c7c6842862ab" deferrability="7" deleteRule="3" fk-table-ref="TAB77" fkCardinality="7" identifying="false" name="Have" physicalName="Have" pk-table-ref="TAB60" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP124" populated="true" UUID="49aa155e-ded9-4263-948f-08667fd9abf7" fk-column-ref="COL81" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL61" />
+   </relationship>
+   <relationship id="REL125" populated="true" UUID="ce362376-4a19-4dc5-8c9a-c210518077d1" deferrability="7" deleteRule="3" fk-table-ref="TAB84" fkCardinality="7" identifying="false" name="IsAn" physicalName="IsAn" pk-table-ref="TAB66" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP126" populated="true" UUID="cf3f2e50-e4c2-4b52-ad29-aba1204faf5f" fk-column-ref="COL88" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL67" />
+   </relationship>
+   <relationship id="REL127" populated="true" UUID="ab3658f9-0634-4bf7-8000-771247fab7a6" deferrability="7" deleteRule="3" fk-table-ref="TAB98" fkCardinality="7" identifying="true" name="Get" physicalName="Get" pk-table-ref="TAB77" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP128" populated="true" UUID="3e4a46d4-520f-493f-a36c-71cf2453b694" fk-column-ref="COL100" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL78" />
+   </relationship>
+   <relationship id="REL129" populated="true" UUID="23b5fa26-1af2-4b64-89d2-322a7e39026e" deferrability="7" deleteRule="3" fk-table-ref="TAB50" fkCardinality="7" identifying="true" name="Teaches" physicalName="Teaches" pk-table-ref="TAB84" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP130" populated="true" UUID="2fa30701-b0d4-41f8-9190-3bc75f61c8cf" fk-column-ref="COL51" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL85" />
+   </relationship>
+   <relationship id="REL131" populated="true" UUID="f966e4e9-d19a-4a50-8130-61773e4ec174" deferrability="7" deleteRule="3" fk-table-ref="TAB50" fkCardinality="7" identifying="true" name="Attend" physicalName="Attend" pk-table-ref="TAB112" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP132" populated="true" UUID="d9e590aa-d3ba-4972-8d3c-24f38a1a2dc5" fk-column-ref="COL53" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL113" />
+   </relationship>
+   <relationship id="REL133" populated="true" UUID="0ffc3cc5-e846-45cf-91bd-64aec8d02f9e" deferrability="7" deleteRule="3" fk-table-ref="TAB91" fkCardinality="7" identifying="true" name="Dependents_of" physicalName="Dependents_of" pk-table-ref="TAB112" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP134" populated="true" UUID="63e8cfb4-267b-4005-85fd-a81bc4cfcc53" fk-column-ref="COL92" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL113" />
+   </relationship>
+   <relationship id="REL135" populated="true" UUID="b3825da9-5e22-4aee-8522-6c633f3134e7" deferrability="7" deleteRule="3" fk-table-ref="TAB98" fkCardinality="7" identifying="true" name="Views" physicalName="Views" pk-table-ref="TAB112" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP136" populated="true" UUID="e0571fd0-f6bc-485b-9c73-76d91b1ceb36" fk-column-ref="COL99" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL113" />
+   </relationship>
+   <relationship id="REL137" populated="true" UUID="23865a23-a519-4731-a21c-886c29e48d1a" deferrability="7" deleteRule="3" fk-table-ref="TAB106" fkCardinality="7" identifying="true" name="Address" physicalName="Address" pk-table-ref="TAB112" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP138" populated="true" UUID="bcd46473-43e4-45e0-aac0-26339f7fc506" fk-column-ref="COL108" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL113" />
+   </relationship>
+  </relationships>
+ </target-database>
+ <ddl-generator type="ca.sqlpower.architect.ddl.SQLServer2005DDLGenerator" allow-connection="false"> </ddl-generator>
+ <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
+ <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
+ <play-pen zoom="1.1892071150027208" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+  <table-pane table-ref="TAB50" x="281" y="194" bgColor="0xf0f0f0" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB60" x="535" y="176" bgColor="0xf0f0f0" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB66" x="559" y="274" bgColor="0xf0f0f0" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB77" x="397" y="20" bgColor="0xf0f0f0" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB84" x="383" y="480" bgColor="0xf0f0f0" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB91" x="76" y="478" bgColor="0xf0f0f0" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB98" x="82" y="56" bgColor="0xf0f0f0" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB106" x="213" y="398" bgColor="0xf0f0f0" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB112" x="58" y="233" bgColor="0xf0f0f0" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL121" pkConnection="0.4" fkConnection="0.5583333333333333" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="18"/>
+  <table-link relationship-ref="REL123" pkConnection="0.20224719101123595" fkConnection="0.848314606741573" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-link relationship-ref="REL129" pkConnection="0.29545454545454547" fkConnection="0.7478991596638656" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-link relationship-ref="REL125" pkConnection="0.08839779005524862" fkConnection="0.9060773480662984" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL127" pkConnection="0.15555555555555556" fkConnection="0.8555555555555555" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="18"/>
+  <table-link relationship-ref="REL131" pkConnection="0.5333333333333333" fkConnection="0.4583333333333333" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
+  <table-link relationship-ref="REL133" pkConnection="0.7297297297297297" fkConnection="0.19310344827586207" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL135" pkConnection="0.42342342342342343" fkConnection="0.7310924369747899" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-link relationship-ref="REL137" pkConnection="0.9099099099099099" fkConnection="0.20108695652173914" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+ </play-pen>
+ <critic-manager>
+  <critic-grouping platformType="Generic" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PrimaryKeyCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.RelationshipMappingTypeCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.EmptyRelationshipCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericSequenceNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetDefaultOnColumnWithNoDefaultCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetNullOnNonNullableColumnCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DuplicateNameCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="DB2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DB2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="H2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.H2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="HSQLDB" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.HSQLDBUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="MySQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLCommentCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="Oracle" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OraclePhysicalNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="PostgreSQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PostgreSQLReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerUnsupportedFeaturesCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2000" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2000UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2005" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2005UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+ </critic-manager>
+ <profiles topNCount="10">
+  </profiles>
+  <olap>
+  </olap>
+  <olap-gui>
+  </olap-gui>
+</architect-project>
